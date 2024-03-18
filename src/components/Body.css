@@ -1,0 +1,97 @@
+.body {
+    width: 100%;
+}
+
+.res-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around ; */
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-left: 350px;
+    margin-right: 350px; */
+
+}
+
+/* .cards{
+    width: 32%;
+} */
+.filter {
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-left: 21.5%; */
+    /* margin-right: 330px; */
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    /* background-color: rgb(204, 202, 202); */
+    /* justify-content: space-between; */
+}
+
+.filter-btn {
+    cursor: pointer;
+    border-radius: 10px;
+    width: 90px;
+    border-color: white;
+    background-color: white;
+    color: gray;
+    /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); */
+    border: 2px solid rgb(171, 157, 157);
+
+
+}
+
+.search {
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.search-box {
+    width: 400px;
+    height: 30px;
+    /* margin-left: 30px; */
+    border-radius: 20px;
+    font-family: "Madimi One", sans-serif;
+    background-color: white;
+    border: 2px solid rgb(171, 157, 157);
+    /* border-color: aliceblue; */
+    /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); */
+}
+
+.search-btn {
+    cursor: pointer;
+    width: 66px;
+    border-radius: 10px;
+    /* border-color: rgb(240, 243, 246); */
+    border: 2px solid rgb(171, 157, 157);
+
+}
+
+@media only screen and (max-width:700px) {
+    .filter {
+        /* margin-left: 0; */
+        justify-content: space-between;
+        margin: 0 auto;
+    
+        width: 100%;
+    }
+
+    .search {
+        /* margin-right: 10px; */
+        width: 80%;
+    }
+    .filter-btn{
+        width: 20%;
+    }
+}

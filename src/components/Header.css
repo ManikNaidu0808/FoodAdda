@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+.header-container {
+    font-family: "Madimi One", sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.navigation ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.navigation ul li {
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+.logoSearch {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.nav-top {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cart {
+    /* margin-top: 10px; */
+    /* margin-right: 25px; */
+    width: 60px;
+    height: 23px;
+    color: gray;
+    text-align: center;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.login {
+    /* width: 110px; */
+    align-items: center;
+}
+
+.login button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #96b2ce;
+    color: white;
+    border: none;
+    border-radius: 11px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login button:hover {
+    background-color: #0056b3;
+}
+
+@media only screen and (max-width:700px) {
+    .navigation {
+        margin: 0;
+        width: 100%;
+        justify-content: center;
+        padding: 20px 0;
+    }
+
+    .header {
+        flex-direction: column;
+        border-bottom: 1px dotted black;
+        padding-bottom: 20px;
+    }
+    .nav-top{
+    justify-content: space-between;
+    }
+}
+@media only screen and (max-width:456px){
+    .nav-top{
+
+        justify-content: space-between;
+        }
+}
+
+
+
+
+
+
+
+
+
+
+/* .header{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    border-radius: 12px;
+    align-items: center;
+    background-color:  rgb(192, 235, 186);
+}
+.logo{
+    width: 100px;
+    border-radius: 12px;
+}
+.nav-items > ul{
+    display: flex;
+    list-style-type: none;
+}
+.nav-items > ul >li{
+    padding: 10px;
+    margin :10px;
+}
+.login{
+    border-radius: 30px;
+}
+.login:hover{
+    background-color:  rgb(165, 211, 159);
+} */
